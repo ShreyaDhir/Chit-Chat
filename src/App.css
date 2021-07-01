@@ -1,3 +1,7 @@
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .app_body{
   display: grid;
   background-color: #b6ecec;
@@ -11,4 +15,8 @@
   height:90vh;
   width: 90vw;
   box-shadow: -1px 4px 20px -6px cadetblue(0, 0, 0, 0.4);
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
