@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
 import Sidebar from './Sidebar';
 import './App.css';
 

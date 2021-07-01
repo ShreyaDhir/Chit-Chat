@@ -30,12 +30,7 @@ function Sidebar() {
 
      </div>
     </div>
-<<<<<<< Updated upstream
   );
 }
-=======
-  )
-};
->>>>>>> Stashed changes
 
 export default Sidebar;
