@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Sidebar.css';
 import DonutLargeIcon from "@material-ui/icons/DonutLarge";
 import { Avatar, IconButton } from "@material-ui/core";
@@ -30,7 +30,7 @@ function Sidebar() {
 
      </div>
     </div>
-  )
+  );
 }
 
 export default Sidebar;
