@@ -12,7 +12,7 @@ function Sidebar() {
           <Avatar src="https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg"/>
       <div className='sidebar_headerRight'>
         <IconButton>
-    <DonutLargeIcon />
+    <DonutLargeIcon/>
     </IconButton>
     <IconButton>
     <MessageIcon />
