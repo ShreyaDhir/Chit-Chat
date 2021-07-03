@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <h1> CheetChat</h1>
    
-   <div className="app_body"></div>
-    <Sidebar />
+   <div className="app_body">
+     <Sidebar />
    <Chat />
-   
+   </div>
     </div>
   );
 }
