@@ -8,7 +8,7 @@ function App() {
       <h1> CheetChat</h1>
    
    <div className="app_body"></div>
-    <SideBar />
+    <Sidebar />
    <Chat />
    
     </div>
