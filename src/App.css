@@ -1,14 +1,14 @@
 .app_body{
-  display:grid;
-  background-color: #b6ecec;
+  display: grid;
+  background-color: #303636;
   height: 100vh;
-
+  
 }
 
 .app_body{
   display:flex;
-  background-color: #8dd6f8;
-  height: 90vh;
+  background-color:#8dd6f8;
+  height:90vh;
   width: 90vw;
   box-shadow: -1px 4px 20px -6px cadetblue(0, 0, 0, 0.4);
 }
