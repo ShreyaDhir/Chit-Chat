@@ -18,8 +18,5 @@ function App() {
 
 export default App;
 
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
