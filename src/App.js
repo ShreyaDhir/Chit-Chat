@@ -5,11 +5,6 @@ import Chat from './Chat';
 
 function App() {
 
-import Sidebar from './Sidebar';
-import Chat from './Chat';
-
-
-function App() {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
