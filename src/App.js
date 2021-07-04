@@ -38,11 +38,9 @@ console.log(messages);
    
    <div className="app_body">
      <Sidebar />
-<<<<<<< HEAD
-   {/*Chat*/}
-=======
+
    <Chat messages={messages}/>
->>>>>>> cb1a8f0b85abd6a6f5076ce24000ed79e8d17690
+
    </div>
     </div>
   );
