@@ -36,7 +36,7 @@ console.log(messages);
 
   return (
     <div className="App">
-      <h1> CheetChat</h1>
+      <h1> ChitChat</h1>
    
 
    <div className="app_body"></div>
