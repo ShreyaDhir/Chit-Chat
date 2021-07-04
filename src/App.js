@@ -1,4 +1,10 @@
 import './App.css';
+
+import Sidebar from './Sidebar';
+import Chat from './Chat';
+
+function App() {
+
 import Sidebar from './Sidebar';
 import Chat from './Chat';
 
@@ -32,22 +38,29 @@ useEffect(() => {
 console.log(messages);
 
 
+
   return (
     <div className="App">
       <h1> CheetChat</h1>
    
+
+   <div className="app_body"></div>
+    <SideBar />
+   <Chat />
+   
+
    <div className="app_body">
      <Sidebar />
 
    <Chat messages={messages}/>
 
    </div>
+
     </div>
   );
 }
 
 
 export default App;
-
 
 
