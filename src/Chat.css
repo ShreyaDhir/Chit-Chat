@@ -18,7 +18,7 @@ background-color:rgb(236, 214, 206);
     display: flex;
     padding: 20px;
     align-items: center;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgb(252, 248, 248);
 }
 
 .chat_headerInfo{
@@ -26,8 +26,8 @@ background-color:rgb(236, 214, 206);
     padding-left: 20px;
 }
 
-.chat_headerInfo > h3 {
-    margin-bottom: 3px;
+.chat_headerInfo > h2 {
+    margin-bottom: -20px;
     font-weight: 500;
 }
 
@@ -43,7 +43,7 @@ background-color:rgb(236, 214, 206);
 
 .chat_body{
     flex: 1;
-    background-image: url('https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325466/man-walking-dog.jpg');
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.heroscreen.cc%2F2020%2F09%2Fbackground-wallpapers-for-whatsapp-chat.html&psig=AOvVaw2Ctnmx07k__x_asdQbBJ8K&ust=1625493339735000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMjM7-bIyfECFQAAAAAdAAAAABAD');
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
