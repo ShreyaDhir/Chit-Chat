@@ -1,8 +1,6 @@
 import './App.css';
 import Sidebar from './Sidebar';
-<<<<<<< HEAD
-/*import Chat from './Chat';*/
-=======
+
 import Chat from './Chat';
 >>>>>>> cb1a8f0b85abd6a6f5076ce24000ed79e8d17690
 
