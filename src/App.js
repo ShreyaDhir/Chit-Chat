@@ -1,8 +1,7 @@
 import './App.css';
 import Sidebar from './Sidebar';
-
 import Chat from './Chat';
->>>>>>> cb1a8f0b85abd6a6f5076ce24000ed79e8d17690
+
 
 function App() {
   const [messages, setMessages] = useState([]);
