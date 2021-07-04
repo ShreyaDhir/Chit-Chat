@@ -38,7 +38,9 @@ console.log(messages);
    
    <div className="app_body">
      <Sidebar />
+
    <Chat messages={messages}/>
+
    </div>
     </div>
   );
