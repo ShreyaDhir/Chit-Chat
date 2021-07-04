@@ -2,7 +2,27 @@ import { Avatar, IconButton} from "@material-ui/core";
 import React ,{ useState, useEffect }from 'react';
 import React ,{Attachfile,MoreVert, SearchOutLined } from "react";
 import "./Chat.css";
-function Chat() {
+import axios from "./axios";
+
+
+function Chat({ messages }) {
+
+    const [input, setInput] = useState("");
+
+    const sendMessage = async (e) => {
+        e.preventDefault ();
+
+        await axios.post ("/messages/new" , {
+        
+        message: input,
+        name: "DEMO APP",
+        timestamp: "Just now!",
+        received: false,
+        });
+
+        setInput ("") ;
+    };
+
     const {seed ,setSeed}= useState(" ");
     useEffect(() => {
         setSeed(Math.floor(Math.random()= 6000));
