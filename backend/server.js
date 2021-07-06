@@ -1,7 +1,7 @@
 //importing
 import express from "express";
 import mongoose from "mongoose";
-import Messages from "./Messages.js";
+import Messages from "./dbMessages.js";
 import Pusher from "pusher";
 import cors from "cors";
 
