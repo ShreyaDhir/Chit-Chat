@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const schema = mongoose.Schema({
+const chitchatSchema = mongoose.Schema({
     message: String,
     name: String,
     timestamp: String,
@@ -8,4 +8,4 @@ const schema = mongoose.Schema({
 });
 
 //Collection
-export default mongoose.model('messagecontents', schema)
+export default mongoose.model("messagecontents", chitchatSchema)
