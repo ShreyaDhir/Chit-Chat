@@ -20,6 +20,11 @@ const pusher = new Pusher({
 //middleware
 app.use(express.json());
 app.use(cors());
+app.use((req, res, next) => {
+  res.setHeader("'Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Headers", "*");
+  next();
+});
 
 //DB configuration
 const connection_url =
@@ -59,7 +64,7 @@ db.once("open", () => {
 //api routes
 app.get("/", (req, res) => res.status(200).send("hello world"));
 
-app.get("/messages/all", (req, res) => {
+app.get("/messages/sync", (req, res) => {
   Messages.find((err, data) => {
     if (err) {
       res.status(500).send(err);
