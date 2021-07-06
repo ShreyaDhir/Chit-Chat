@@ -20,6 +20,22 @@ const pusher = new Pusher({
 //middleware
 app.use(express.json());
 app.use(cors());
+app.use(function (req, res, next) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET,HEAD,OPTIONS,POST,PUT,DELETE"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Origin,Cache-Control,Accept,X-Access-Token ,X-Requested-With, Content-Type, Access-Control-Request-Method"
+  );
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+  next();
+});
 
 //DB configuration
 const connection_url =
@@ -59,7 +75,7 @@ db.once("open", () => {
 //api routes
 app.get("/", (req, res) => res.status(200).send("hello world"));
 
-app.get("/messages/all", (req, res) => {
+app.get("/messages/sync", (req, res) => {
   Messages.find((err, data) => {
     if (err) {
       res.status(500).send(err);
@@ -82,3 +98,4 @@ app.post("/messages/new", (req, res) => {
 
 //listen
 app.listen(port, () => console.log(`Listening on localhost:${port}`));
+
