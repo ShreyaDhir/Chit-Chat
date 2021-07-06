@@ -1,102 +1,101 @@
-.chat
-{
-flex: 0.7;
-background-color:rgb(236, 214, 206);
-    display: flex;
-    flex-direction: column;
+.chat {
+  flex: 0.7;
+  background-color: rgb(236, 214, 206);
+  display: flex;
+  flex-direction: column;
 }
 
-.chat-room-name{
-    margin: 0px;
+.chat-room-name {
+  margin: 0px;
 }
 
-.chat-room-last-seen{
-    margin: 0;
+.chat-room-last-seen {
+  margin: 0;
 }
 
-.chat_header{
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    border-bottom: 1px solid rgb(252, 248, 248);
+.chat_header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid rgb(252, 248, 248);
 }
 
-.chat_headerInfo{
-    flex: 1;
-    padding-left: 20px;
+.chat_headerInfo {
+  flex: 1;
+  padding-left: 20px;
 }
 
 .chat_headerInfo > h2 {
-    margin-bottom: -20px;
-    font-weight: 500;
+  margin-bottom: -20px;
+  font-weight: 500;
 }
 
 .chat_headerInfo > p {
-    color:gray;
+  color: gray;
 }
 
-.chat_headerRight{
-    display: flex;
-    justify-content: space-between;
-    min-width: 100px;
+.chat_headerRight {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
 }
 
-.chat_body{
-    flex: 1;
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.heroscreen.cc%2F2020%2F09%2Fbackground-wallpapers-for-whatsapp-chat.html&psig=AOvVaw2Ctnmx07k__x_asdQbBJ8K&ust=1625493339735000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMjM7-bIyfECFQAAAAAdAAAAABAD');
-    background-repeat: repeat;
-    background-position: center;
-    padding: 30px;
-    overflow:scroll;
+.chat_body {
+  flex: 1;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.heroscreen.cc%2F2020%2F09%2Fbackground-wallpapers-for-whatsapp-chat.html&psig=AOvVaw2Ctnmx07k__x_asdQbBJ8K&ust=1625493339735000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCMjM7-bIyfECFQAAAAAdAAAAABAD");
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow: scroll;
 }
 
-.chat_message{
-    position: relative;
-    font-size: 16px;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: white;
-    width: fit-content;
+.chat_message {
+  position: relative;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  width: fit-content;
 }
 
-.chat_name{
-    position: absolute;
-    top:-15px;
-    font-weight: 800;
-    font-size: xx-small;
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
 }
 
-.chat_timestemp{
-    margin-left: 10px;
-    font-size: xx-small;
+.chat_timestemp {
+  margin-left: 10px;
+  font-size: xx-small;
 }
 
-.chat_receiver{
-    margin-left: auto;
-    background-color: #dcf8c6;
+.chat_receiver {
+  margin-left: auto;
+  background-color: #dcf8c6;
 }
 
-.chat_footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 62px;
-    border: 1px solid lightgray;
+.chat_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  border: 1px solid lightgray;
 }
 
-.chat_footer > form{
-    flex: 1;
-    display: flex;
+.chat_footer > form {
+  flex: 1;
+  display: flex;
 }
 
-.chat_footer > form > input{
-    flex: 1;
-    border-radius: 30px;
-    padding: 10px;
-    border: none;
-    margin: 0 10px 0px 10px;
+.chat_footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  margin: 0 10px 0px 10px;
 }
 
-.chat_footer > form > button{
-    display: none;
+.chat_footer > form > button {
+  display: none;
 }

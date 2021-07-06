@@ -1,23 +1,19 @@
-.sidebarchat{
-    display: flex;
-    padding:8px;
-    cursor: pointer;
-    border-bottom: 2px solid #f6f6f6;
+.sidebarchat {
+  display: flex;
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 2px solid #f6f6f6;
 }
-.sidebarchat :hover{
-    background-color: #ebebeb;
-
+.sidebarchat :hover {
+  background-color: #ebebeb;
 }
 
-.sidebarchat_info > h2{
-    font-size: 16px;
+.sidebarchat_info > h2 {
+  font-size: 16px;
   margin-bottom: -20px;
   margin-top: 0px;
 }
 
-.sidebarchat_info{
-    margin-left: 15px;
-
+.sidebarchat_info {
+  margin-left: 15px;
 }
-
-
