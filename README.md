@@ -1,8 +1,8 @@
 # Chit Chat 
 Chit-chat is a chat application built on React.js, MongoDB, Express and Pusher. 
 
-### Demo
+### Live App
 [Chit Chat: Chat Application](https://chit-chat-demo-app.herokuapp.com/)
 
-### Wireframe
+### Demo
 ![Chit-Chat Prototype](https://github.com/ShreyaDhir/Chit-Chat/blob/main/public/chit-chat-demo.png?raw=true)
