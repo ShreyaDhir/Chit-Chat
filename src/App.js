@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="app">
-      <h3 style={{marginBottom: "10vh"}}> ChitChat</h3>
+      <h1 style={{marginBottom: "10vh"}}> ChitChat </h1>
       <div className="app_body">
         <Sidebar />
         <Chat messages={messages}/>
